@@ -1,16 +1,13 @@
 import React, { Fragment, Component } from 'react';
-import './App.css';
-import Routes from './routes';
 
-
-class App extends Component {
+class Homepage extends Component {
   render() {
     return (
       <Fragment>
-        <Routes />
+        home
       </Fragment>
     )
   }
 }
 
-export default App;
+export default Homepage;

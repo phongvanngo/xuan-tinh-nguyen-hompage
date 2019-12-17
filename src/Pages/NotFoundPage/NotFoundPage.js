@@ -1,16 +1,14 @@
 import React, { Fragment, Component } from 'react';
-import './App.css';
-import Routes from './routes';
 
 
-class App extends Component {
+class NotFound extends Component {
   render() {
     return (
       <Fragment>
-        <Routes />
+        notfound
       </Fragment>
     )
   }
 }
 
-export default App;
+export default NotFound;
